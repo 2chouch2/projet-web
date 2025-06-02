@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Uranus - Solar System</title>
+ <link rel="stylesheet" href="../css/systemesolaire.css " />
+  <nav class="navbar">
+  <div class="logo">SolarSystem</div>
+  <ul class="nav-links">
+    <li><a href="../HTML/Mercure.html">Mercury</a></li>
+    <li><a href="../HTML/Venus.html">Venus</a></li>
+    <li><a href="../HTML/Terre.html">Earth</a></li>
+    <li><a href="../HTML/Mars.html">Mars</a></li>
+    <li><a href="../HTML/Jupiter.html">Jupiter</a></li>
+    <li><a href="../HTML/Saturne.html">Saturn</a></li>
+    <li><a href="../HTML/Uranus.html">Uranus</a></li>
+    <li><a href="../HTML/Neptune.html">Neptune</a></li>
+  </ul>
+  <div class="search-icon">
+  </div>
+</nav>
+</head>
+<body>
+  <script src="../Java/System.js"></script>
+  <div class="planet-container">
+    <div class="planet-image">
+      <img src="../image/uranus.webp" alt="Uranus Image">
+    </div>
+    <div class="planet-info">
+      <h1>Uranus</h1>
+      <span class="tag">Ice giant</span>
+
+      <div class="planet-stats">
+        
+        <div><strong>Diameter</strong><br>50 724 km</div>
+        <div><strong>Distance from Sun</strong><br>2 871 million km</div>
+        <div><strong>Orbital Period</strong><br>30 687 days</div>
+        <div><strong>Moons</strong><br>28</div>
+      </div>
+
+      <div class="planet-facts">
+        <h3>Interesting Facts</h3>
+        <ul>
+          <li>Uranus rotates on its side, unlike any other planet.</li>
+          <li>It has a pale blue color due to methane in its atmosphere.</li>
+          <li>Uranus has 28 known moons.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   <h2>Where ?</h2>
+
+   <form id="planetForm">
+    <input list="planetes" id="planetInput" name="planet" placeholder="choose one" autocomplete="off" />
+    <datalist id="planetes">
+      <option value="Mercury"></option>
+      <option value="Venus"></option>
+      <option value="Earth"></option>
+      <option value="Mars"></option>
+      <option value="Jupiter"></option>
+      <option value="Saturn"></option>
+      <option value="Uranus"></option>
+      <option value="Neptune"></option>
+    </datalist>
+    <button type="submit">go</button>
+  </form>
+
+
+
+</body>
+</html>
